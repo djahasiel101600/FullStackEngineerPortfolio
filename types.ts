@@ -24,7 +24,7 @@ export interface Profile {
   location: string;
   email: string;
   github?: string;
-  linkedin?: string;
+  portfolioUrl?: string;
   resumeUrl?: string;
 }
 

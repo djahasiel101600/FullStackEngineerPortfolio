@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {
   Github,
-  Linkedin,
+  GlobeIcon,
   Mail,
   MapPin,
   ExternalLink,
@@ -128,12 +128,12 @@ const App: React.FC = () => {
                 >
                   <Github size={22} />
                 </a>
-                <a
-                  href={PROFILE.linkedin}
+                {/* <a
+                  href={PROFILE.portfolioUrl}
                   className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white transition-all"
                 >
-                  <Linkedin size={22} />
-                </a>
+                  <GlobeIcon size={22} />
+                </a> */}
                 <a
                   href={`mailto:${PROFILE.email}`}
                   className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white transition-all"
@@ -167,8 +167,8 @@ const App: React.FC = () => {
   name: "${PROFILE.name}",
   role: "${PROFILE.role}",
   skills: [
-    "Next.js", "Go", "Kubernetes",
-    "PostgreSQL", "Terraform"
+    "React", "Python", "Docker",
+    "PostgreSQL/SQLite", "Terraform"
   ],
   status: "Optimizing code...",
   readyForHire: true
@@ -320,12 +320,12 @@ function renderSkills() {
             >
               <Mail size={20} /> Say Hello
             </a>
-            <a
+            {/* <a
               href={PROFILE.linkedin}
               className="w-full sm:w-auto bg-slate-900 text-white border border-slate-800 px-10 py-4 rounded-2xl font-bold hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
             >
               <Linkedin size={20} /> LinkedIn
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -347,12 +347,12 @@ function renderSkills() {
             >
               GitHub
             </a>
-            <a
+            {/* <a
               href={PROFILE.linkedin}
               className="hover:text-white transition-colors"
             >
               LinkedIn
-            </a>
+            </a> */}
             <a href="#home" className="hover:text-white transition-colors">
               Back to Top
             </a>
