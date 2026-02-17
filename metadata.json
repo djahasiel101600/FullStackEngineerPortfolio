@@ -1,0 +1,8 @@
+{
+  "name": "Full Stack Portfolio Pro",
+  "description": "A high-performance, AI-integrated portfolio for Full Stack Engineers featuring dynamic project galleries and a Gemini-powered chat assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
